@@ -17,5 +17,10 @@ Explanation for some files that are not explained otherwise:
 
 For step by step explanation of setting up the project, refer: http://www.notespoint.com/chatbot-rasanlu-php-part-1/
 
+References:
+https://www.analyticsvidhya.com/blog/2018/01/faq-chatbots-the-future-of-information-searching/
+
+Code reuse:
+https://bootsnipp.com/snippets/featured/simple-chat
 
 
