@@ -1,0 +1,253 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hey"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "howdy"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hey there"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hello"
+      }, 
+      {
+        "entities": [], 
+        "intent": "greet", 
+        "text": "hi"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "i'm looking for a place to eat"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 31, 
+            "end": 36, 
+            "value": "north", 
+            "entity": "location"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "i'm looking for a place in the north of town"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 8, 
+            "end": 15, 
+            "value": "chinese", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "show me chinese restaurants"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "yes"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "yep"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "yeah"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 31, 
+            "end": 37, 
+            "value": "centre", 
+            "entity": "location"
+          }, 
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "mexican", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "show me a mexican place in the centre"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "bye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "goodbye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "good bye"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "stop"
+      }, 
+      {
+        "entities": [], 
+        "intent": "goodbye", 
+        "text": "end"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 26, 
+            "value": "indian", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "i am looking for an indian spot"
+      }, 
+      {
+        "entities": [], 
+        "intent": "restaurant_search", 
+        "text": "search for restaurants"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 20, 
+            "value": "west", 
+            "entity": "location"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "anywhere in the west"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 0, 
+            "end": 7, 
+            "value": "central", 
+            "entity": "location"
+          }, 
+          {
+            "start": 8, 
+            "end": 14, 
+            "value": "indian", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "central indian restaurant"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "indeed"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "that's right"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "ok"
+      }, 
+      {
+        "entities": [], 
+        "intent": "affirm", 
+        "text": "great"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 29, 
+            "end": 38, 
+            "value": "cantonese", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "Is there any place I can get cantonese style food?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 16, 
+            "end": 24, 
+            "value": "Szechuan", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "where can i get Szechuan chicken?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 7, 
+            "end": 14, 
+            "value": "mexican", 
+            "entity": "cuisine"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "I want mexican food"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 29, 
+            "end": 36, 
+            "value": "nearest", 
+            "entity": "location"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "feeling hungry. where is the nearest restaurant"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 4, 
+            "end": 14, 
+            "value": "vegetarian", 
+            "entity": "cuisine"
+          }, 
+          {
+            "start": 27, 
+            "end": 33, 
+            "value": "nearby", 
+            "entity": "location"
+          }
+        ], 
+        "intent": "restaurant_search", 
+        "text": "Any vegetarian restaurants nearby?"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": []
+  }
+}
